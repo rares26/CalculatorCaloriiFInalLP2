@@ -14,6 +14,27 @@ def save_info():
     mentinere_info=mentinereVar.get()
     ingrasare_info=ingrasareVar.get()
 
+    offset = IntVar()
+    if(sex_info == "M"):
+        RMB = int(10*greutate_info+6.25*inaltime_info-5*varsta_info+5)
+    if(sex_info == "F"):
+        RMB = int(10*greutate_info+6.25*inaltime_info-5*varsta_info-161)
+    if(sedentar_info == "1"):
+        offset = 1.2
+    if(activitateRedusa_info == "1"):
+        offset = 1.375
+    if(activ_info == "1"):
+        offset = 1.55
+    if(factiv_info == "1"):
+        offset = 1.9
+    caloriiBaza = RMB * offset
+    if(slabire_info == "1"):
+        caloriiBaza = caloriiBaza-500
+    if(mentinere_info == "1"):
+        caloriiBaza = caloriiBaza
+    if(ingrasare_info == "1"):
+        caloriiBaza = caloriiBaza + 500
+
 #Background
 body = Tk()
 body.geometry("500x500")
