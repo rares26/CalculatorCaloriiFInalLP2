@@ -1,6 +1,19 @@
 import tkinter as tk
 from tkinter import *
 
+def save_info():
+    varsta_info = varsta.get()
+    sex_info = sex.get()
+    greutate_info = greutate.get()
+    inaltime_info = inaltime.get()
+    sedentar_info = sedentarVar.get()
+    activitateRedusa_info = activitateRedusaVar.get()
+    activ_info = activVar.get()
+    factiv_info = fActivVar.get()
+    slabire_info=slabireVar.get()
+    mentinere_info=mentinereVar.get()
+    ingrasare_info=ingrasareVar.get()
+
 #Background
 body = Tk()
 body.geometry("500x500")
