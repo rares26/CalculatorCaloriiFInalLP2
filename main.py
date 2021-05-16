@@ -35,6 +35,12 @@ def save_info():
     if(ingrasare_info == "1"):
         caloriiBaza = caloriiBaza + 500
 
+    T = Label(body,height=2, width=4,text=int(caloriiBaza))
+    T.place(x=240,y=400)
+    rez = Label(body,height=2,width=9,text="Rezultat:")
+    rez.place(x=170,y=400)
+    print(RMB,sedentar_info,offset,caloriiBaza)
+
 #Background
 body = Tk()
 body.geometry("500x500")
@@ -111,7 +117,7 @@ inputActivitate.place(x=130, y=250)
 inputScop.place(x=60, y=300)
 
 #Buton
-calculeazaButon = Button(body,text = "Calculeaza",width = "30", height = "2" )
+calculeazaButon = Button(body,text = "Calculeaza",width = "30", height = "2" ,command=save_info)
 calculeazaButon.place(x=130,y=350)
 
 body.mainloop() #initializare GUI
