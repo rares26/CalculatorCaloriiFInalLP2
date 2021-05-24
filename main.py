@@ -129,5 +129,10 @@ def calculator():
     calculeazaButon = Button(top,text = "Calculeaza",width = "30", height = "2" ,command=save_info)
     calculeazaButon.place(x=130,y=350)
 
+def evidenta():
+    top2 = Toplevel()
+    top2.geometry("500x500")
+    top2.title("Evidenta")
 btn = Button(body,text="Calculator",command=calculator).pack()
+btn2 = Button(body,text="Test").pack()
 mainloop() #initializare GUI
