@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import *
 import json
-filename = "mancare.json"
+
 
 body = Tk()
 body.geometry("500x500")
@@ -147,7 +147,7 @@ def evidenta():
     mesaj4_text = Label(top2,text = "Valorile nutrititonale sunt:", fg ="blue").pack()
 
 
-    with open(filename,"r") as f:
+    with open("venv/mancare.json","r") as f:
         temp = json.load(f)
         for entry in temp:
             name = entry["name"]
