@@ -133,6 +133,17 @@ def evidenta():
     top2 = Toplevel()
     top2.geometry("500x500")
     top2.title("Evidenta")
+    mancare=StringVar()
+    cantitate=IntVar()
+    mesaj1_text = Label(top2,text = "Introduceti numele mancarii:", fg ="blue").pack()
+    mesaj2_text = Label(top2,text = "Nume:", fg ="blue").pack()
+    mancare_entry = Entry(top2,text = mancare).pack()
+    mesaj3_text = Label(top2,text = "Cantitate:", fg ="blue").pack()
+    cantitate_entry = Entry(top2,text = cantitate).pack()
+    btn3 = Button(top2,text="Inregistreaza").pack()
+    mesaj4_text = Label(top2,text = "Valorile nutrititonale sunt:", fg ="blue").pack()
+
+
 btn = Button(body,text="Calculator",command=calculator).pack()
-btn2 = Button(body,text="Test").pack()
+btn2 = Button(body,text="Test",command=evidenta).pack()
 mainloop() #initializare GUI
