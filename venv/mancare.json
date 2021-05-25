@@ -395,6 +395,125 @@
     "name": "Hot dog",
     "calorii": "292",
     "proteine": "12.2",
+    "carbohidrati": "29.4",
+    "grasimi": "22.2"
+  },
+{
+    "name": "Pizza Diavola",
+    "calorii": "254",
+    "proteine": "9",
+    "carbohidrati": "21.4",
+    "grasimi": "19.2"
+  },
+  {
+    "name": "Pizza Capriciosa",
+    "calorii": "233",
+    "proteine": "8.2",
+    "carbohidrati": "22.4",
+    "grasimi": "19.8"
+  },
+  {
+    "name": "Pizza Quattro Stagioni",
+    "calorii": "223",
+    "proteine": "12.1",
+    "carbohidrati": "29.4",
+    "grasimi": "24.2"
+  },
+  {
+    "name": "Pizza Salami",
+    "calorii": "299",
+    "proteine": "11.1",
+    "carbohidrati": "25.4",
+    "grasimi": "14.6"
+  },
+  {
+    "name": "Pizza Marcherita",
+    "calorii": "232",
+    "proteine": "11.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.9"
+  },
+  {
+    "name": "Apa",
+    "calorii": "0",
+    "proteine": "0",
+    "carbohidrati": "0",
+    "grasimi": "0"
+  },
+  {
+    "name": "Cafea",
+    "calorii": "42",
+    "proteine": "0",
+    "carbohidrati": "0.3",
+    "grasimi": "2.1"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
     "carbohidrati": "25.4",
     "grasimi": "14.2"
   },
