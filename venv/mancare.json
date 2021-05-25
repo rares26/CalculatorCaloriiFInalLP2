@@ -10,6 +10,393 @@
     "proteine": "23.7",
     "carbohidrati": "0",
     "grasimi": "14.3"
+  },
+  {
+    "name": "Sunca afumata",
+    "calorii": "235",
+    "proteine": "17.2",
+    "carbohidrati": "0",
+    "grasimi": "33"
+  },
+  {
+    "name": "mici porc-vita",
+    "calorii": "233",
+    "proteine": "20",
+    "carbohidrati": "0",
+    "grasimi": "12.2"
+  },
+  {
+    "name": "piept pui la gratar",
+    "calorii": "170",
+    "proteine": "20.1",
+    "carbohidrati": "0",
+    "grasimi": "11"
+  },
+  {
+    "name": "pulpe de pui dezosate",
+    "calorii": "140",
+    "proteine": "25",
+    "carbohidrati": "0",
+    "grasimi": "21"
+  },
+  {
+    "name": "snitel de pui",
+    "calorii": "201",
+    "proteine": "13",
+    "carbohidrati": "0",
+    "grasimi": "15.2"
+  },
+  {
+    "name": "carnati gratar afumati",
+    "calorii": "233",
+    "proteine": "20",
+    "carbohidrati": "0",
+    "grasimi": "12.2"
+  },
+  {
+    "name": "coasta de porc",
+    "calorii": "190",
+    "proteine": "15",
+    "carbohidrati": "0",
+    "grasimi": "11"
+  },
+  {
+    "name": "Hering",
+    "calorii": "252",
+    "proteine": "12",
+    "carbohidrati": "0",
+    "grasimi": "12.2"
+  },
+  {
+    "name": "Pastrav",
+    "calorii": "185",
+    "proteine": "12",
+    "carbohidrati": "0",
+    "grasimi": "7"
+  },
+  {
+    "name": "Cartofi prajiti",
+    "calorii": "319",
+    "proteine": "4",
+    "carbohidrati": "19",
+    "grasimi": "8"
+  },
+  {
+    "name": "Cartofi piure",
+    "calorii": "260",
+    "proteine": "2",
+    "carbohidrati": "3",
+    "grasimi": "19"
+  },
+  {
+    "name": "Cartofi nature",
+    "calorii": "218",
+    "proteine": "13",
+    "carbohidrati": "4",
+    "grasimi": "8"
+  },
+  {
+    "name": "Legume la gratar",
+    "calorii": "29",
+    "proteine": "10.1",
+    "carbohidrati": "4",
+    "grasimi": "9"
+  },
+  {
+    "name": "Ciuperci la gratar",
+    "calorii": "190",
+    "proteine": "3",
+    "carbohidrati": "5",
+    "grasimi": "9"
+  },
+  {
+    "name": "Fasole Verde",
+    "calorii": "58",
+    "proteine": "3",
+    "carbohidrati": "3.3",
+    "grasimi": "2"
   }
+  ,
+  {
+    "name": "Supa de pui cu teitei",
+    "calorii": "120",
+    "proteine": "14",
+    "carbohidrati": "8.2",
+    "grasimi": "9"
+  },
+  {
+    "name": "Supa de legume",
+    "calorii": "132",
+    "proteine": "5",
+    "carbohidrati": "2",
+    "grasimi": "7"
+  },
+  {
+    "name": "Ciorba de fasole",
+    "calorii": "180",
+    "proteine": "15.5",
+    "carbohidrati": "5",
+    "grasimi": "9"
+  },
+  {
+    "name": "Ciorba taraneasca",
+    "calorii": "125",
+    "proteine": "22",
+    "carbohidrati": "3.2",
+    "grasimi": "2"
+  },{
+    "name": "Ciorba de perisoare ",
+    "calorii": "99",
+    "proteine": "19",
+    "carbohidrati": "4",
+    "grasimi": "6.3"
+  }
+  ,
+  {
+    "name": "Supa crema de cartofi",
+    "calorii": "195",
+    "proteine": "9.2",
+    "carbohidrati": "9.2",
+    "grasimi": "5"
+  },
+  {
+    "name": "Supa crema de legume",
+    "calorii": "156",
+    "proteine": "15",
+    "carbohidrati": "6",
+    "grasimi": "8"
+  },
+  {
+    "name": "Baclava",
+    "calorii": "243.5",
+    "proteine": "9.3",
+    "carbohidrati": "4.2",
+    "grasimi": "12"
+  },
+  {
+    "name": "Ecler",
+    "calorii": "329",
+    "proteine": "5.0",
+    "carbohidrati": "49",
+    "grasimi": "35"
+  },
+  {
+    "name": "Prajitura Kinder",
+    "calorii": "456",
+    "proteine": "30",
+    "carbohidrati": "11.3",
+    "grasimi": "45.1"
+  }
+  ,
+  {
+    "name": "Savarina",
+    "calorii": "278",
+    "proteine": "22",
+    "carbohidrati": "5.4",
+    "grasimi": "14"
+  },
+  {
+    "name": "Tiramisu",
+    "calorii": "321",
+    "proteine": "22.2",
+    "carbohidrati": "7.4",
+    "grasimi": "34"
+  },
+  {
+    "name": "Cheesecake",
+    "calorii": "390",
+    "proteine": "22",
+    "carbohidrati": "8.4",
+    "grasimi": "16"
+  },
+  {
+    "name": "Pandispan",
+    "calorii": "340",
+    "proteine": "3.2",
+    "carbohidrati": "7.5",
+    "grasimi": "19"
+  },
+  {
+    "name": "Cozonac cu cacao si alune",
+    "calorii": "198",
+    "proteine": "3",
+    "carbohidrati": "3.4",
+    "grasimi": "2"
+  },
+  {
+    "name": "Banane",
+    "calorii": "94",
+    "proteine": "1.3",
+    "carbohidrati": "0.4",
+    "grasimi": "24"
+  },
+  {
+    "name": "Caise",
+    "calorii": "51",
+    "proteine": "3.2",
+    "carbohidrati": "0.4",
+    "grasimi": "12.9"
+  },
+  {
+    "name": "Castane",
+    "calorii": "213",
+    "proteine": "3.4",
+    "carbohidrati": "0.5",
+    "grasimi": "45.9"
+  },
+  {
+    "name": "Capsuni",
+    "calorii": "38",
+    "proteine": "0.8",
+    "carbohidrati": "0.4",
+    "grasimi": "11"
+  },
+  {
+    "name": "Cirese",
+    "calorii": "60",
+    "proteine": "1.1",
+    "carbohidrati": "0.4",
+    "grasimi": "0.3"
+  },
+  {
+    "name": "Mere",
+    "calorii": "58",
+    "proteine": "0.3",
+    "carbohidrati": "0.2",
+    "grasimi": "10"
+  },
+  {
+    "name": "Pepene verde",
+    "calorii": "6.9",
+    "proteine": "0.5",
+    "carbohidrati": "2.4",
+    "grasimi": "0.9"
+  },
+  {
+    "name": "Pepene Galben",
+    "calorii": "13.5",
+    "proteine": "0.8",
+    "carbohidrati": "13.4",
+    "grasimi": "0.1"
+  },
+  {
+    "name": "Lamaie",
+    "calorii": "10",
+    "proteine": "0.4",
+    "carbohidrati": "2.4",
+    "grasimi": "0.1"
+  },
+  {
+    "name": "Pere",
+    "calorii": "61",
+    "proteine": "0.6",
+    "carbohidrati": "12.4",
+    "grasimi": "1.4"
+  },
+  {
+    "name": "Piersici",
+    "calorii": "47",
+    "proteine": "0.7",
+    "carbohidrati": "2.4",
+    "grasimi": "9"
+  },
+  {
+    "name": "Prune",
+    "calorii": "50",
+    "proteine": "22",
+    "carbohidrati": "5.4",
+    "grasimi": "14"
+  },
+  {
+    "name": "Portocale",
+    "calorii": "45",
+    "proteine": "0.7",
+    "carbohidrati": "2.4",
+    "grasimi": "0.9"
+  },
+  {
+    "name": "Fructul pasiunii",
+    "calorii": "22",
+    "proteine": "0.3",
+    "carbohidrati": "9.1",
+    "grasimi": "1.1"
+  },
+  {
+    "name": "Struguri",
+    "calorii": "68",
+    "proteine": "0.8",
+    "carbohidrati": "1.4",
+    "grasimi": "16.7"
+  },
+  {
+    "name": "Salata de varza",
+    "calorii": "31",
+    "proteine": "3",
+    "carbohidrati": "4",
+    "grasimi": "3"
+  },
+  {
+    "name": "Salata de rosii",
+    "calorii": "53",
+    "proteine": "3",
+    "carbohidrati": "3.3",
+    "grasimi": "4"
+  },
+  {
+    "name": "Salata de ton",
+    "calorii": "3",
+    "proteine": "2.2",
+    "carbohidrati": "4",
+    "grasimi": "3"
+  },
+  {
+    "name": "Salata mexicana cu porumb",
+    "calorii": "131",
+    "proteine": "13",
+    "carbohidrati": "10",
+    "grasimi": "9.1"
+  },
+  {
+    "name": "Shaorma cu de toate",
+    "calorii": "252",
+    "proteine": "19.8",
+    "carbohidrati": "29",
+    "grasimi": "31.9"
+  },
+  {
+    "name": "Kebap cu de toate",
+    "calorii": "290",
+    "proteine": "21.9",
+    "carbohidrati": "9.4",
+    "grasimi": "18.9"
+  },
+  {
+    "name": "Shaorma la farfurie",
+    "calorii": "223",
+    "proteine": "12.2",
+    "carbohidrati": "19.9",
+    "grasimi": "23"
+  },
+  {
+    "name": "Hamburger",
+    "calorii": "279",
+    "proteine": "15.4",
+    "carbohidrati": "25.4",
+    "grasimi": "9.14"
+  },
+  {
+    "name": "Cheeseburger",
+    "calorii": "280",
+    "proteine": "22.2",
+    "carbohidrati": "15.4",
+    "grasimi": "14.2"
+  },
+  {
+    "name": "Hot dog",
+    "calorii": "292",
+    "proteine": "12.2",
+    "carbohidrati": "25.4",
+    "grasimi": "14.2"
+  },
 
 ]
