@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import *
-
+import json
+filename = "mancare.json"
 
 body = Tk()
 body.geometry("500x500")
@@ -30,6 +31,7 @@ def calculator():
         slabire_info=slabireVar.get()
         mentinere_info=mentinereVar.get()
         ingrasare_info=ingrasareVar.get()
+        mancare_info=mancareVar.get()
 
         offset = IntVar()
         if(sex_info == "M"):
@@ -105,6 +107,7 @@ def calculator():
     inputActivitate.menu.add_checkbutton(label="Activ",variable=activVar)
     inputActivitate.menu.add_checkbutton(label="Foarte Activ",variable=fActivVar)
 
+
     #VariabileScop
     slabireVar=StringVar()
     mentinereVar=StringVar()
@@ -142,6 +145,18 @@ def evidenta():
     cantitate_entry = Entry(top2,text = cantitate).pack()
     btn3 = Button(top2,text="Inregistreaza").pack()
     mesaj4_text = Label(top2,text = "Valorile nutrititonale sunt:", fg ="blue").pack()
+
+
+    with open(filename,"r") as f:
+        temp = json.load(f)
+        for entry in temp:
+            name = entry["name"]
+            print(f"{name}")
+    rezultat_text = Label(top2,text=name,fg="blue").pack()
+
+
+
+
 
 
 btn = Button(body,text="Calculator",command=calculator).pack()
