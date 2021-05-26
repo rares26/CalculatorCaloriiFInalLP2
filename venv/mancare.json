@@ -448,74 +448,115 @@
     "grasimi": "2.1"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Cafea cu lapte",
+    "calorii": "88",
+    "proteine": "0",
+    "carbohidrati": "12",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Cappucino",
+    "calorii": "79",
+    "proteine": "0",
+    "carbohidrati": "22",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Ceai de fructe",
+    "calorii": "0.7",
+    "proteine": "0",
+    "carbohidrati": "0",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Ceai Nestea",
+    "calorii": "1.2",
+    "proteine": "0",
+    "carbohidrati": "0",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Ceai verde",
+    "calorii": "2.2",
+    "proteine": "0",
+    "carbohidrati": "0",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Cola cola",
+    "calorii": "42",
+    "proteine": "0",
+    "carbohidrati": "10.6",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Fanta",
+    "calorii": "45",
+    "proteine": "0",
+    "carbohidrati": "10",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Sprite",
+    "calorii": "29",
+    "proteine": "0",
+    "carbohidrati": "5",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Lipton",
+    "calorii": "25",
+    "proteine": "0",
+    "carbohidrati": "2",
+    "grasimi": "0"
   },
   {
-    "name": "Hot dog",
-    "calorii": "292",
-    "proteine": "12.2",
-    "carbohidrati": "25.4",
-    "grasimi": "14.2"
+    "name": "Frutti Fresh",
+    "calorii": "20",
+    "proteine": "0",
+    "carbohidrati": "9",
+    "grasimi": "0"
   },
-
+{
+    "name": "Apa minerala",
+    "calorii": "0",
+    "proteine": "0",
+    "carbohidrati": "0",
+    "grasimi": "0"
+  },
+  {
+    "name": "Smoothie cu capsuni zmeura si coacaze",
+    "calorii": "90",
+    "proteine": "0",
+    "carbohidrati": "12.4",
+    "grasimi": "0"
+  },
+  {
+    "name": "Smothie mango si fructele pasiunii",
+    "calorii": "76",
+    "proteine": "0",
+    "carbohidrati": "11.4",
+    "grasimi": "0"
+  },
+  {
+    "name": "Smoothie de ananas",
+    "calorii": "98",
+    "proteine": "0",
+    "carbohidrati": "12.4",
+    "grasimi": "0"
+  },
+  {
+    "name": "Bere",
+    "calorii": "87",
+    "proteine": "0",
+    "carbohidrati": "15.4",
+    "grasimi": "0"
+  },
+  {
+    "name": "Vin",
+    "calorii": "97",
+    "proteine": "0",
+    "carbohidrati": "33",
+    "grasimi": "0"
+  }
 ]
