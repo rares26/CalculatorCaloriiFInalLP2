@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import *
 import json
-
+import re
 
 body = Tk()
 body.geometry("500x500")
@@ -31,7 +31,7 @@ def calculator():
         slabire_info=slabireVar.get()
         mentinere_info=mentinereVar.get()
         ingrasare_info=ingrasareVar.get()
-        mancare_info=mancareVar.get()
+
 
         offset = IntVar()
         if(sex_info == "M"):
@@ -143,12 +143,12 @@ def evidenta():
     mancare_entry = Entry(top2,text = mancare).pack()
     mesaj3_text = Label(top2,text = "Cantitate:", fg ="blue").pack()
     cantitate_entry = Entry(top2,text = cantitate).pack()
-    btn3 = Button(top2,text="Inregistreaza").pack()
+
     mesaj4_text = Label(top2,text = "Valorile nutrititonale sunt:", fg ="blue").pack()
 
 
     def rezultat():
-        customerData ="""{
+        Lista="""{
         "ceafa de porc": "20.9 proteine , 5.5 lipide , 0 glucide , 235 calorii",
         "muschi de porc": "23.9 proteine , 14.3 lipide , 0 glucide , 231 calorii",
         "sunca afumata": "17.2.9 proteine , 3.2 lipide , 0 glucide , 201 calorii",
@@ -234,18 +234,28 @@ def evidenta():
         }"""
         
         
+        user = json.loads(Lista)
+
+
+        if (mancare.get() in user):
+
+           array=re.findall(r'[0-9]+',(user[mancare.get()]))
+           print(array)
+
+           rezultatFinal1 = float(cantitate.get()/100 * int(array[0]))
+           rezultatFinal2 = float(cantitate.get()/100 * int(array[1]))
+           rezultatFinal3 = float(cantitate.get()/100 * int(array[2]))
+           rezultatFinal4 = float(cantitate.get()/100 * int(array[3]))
+           rezultat_text1 = Label(top2,text=rezultatFinal1).pack()
+           rezultat_text2 = Label(top2,text=rezultatFinal2).pack()
+           rezultat_text3 = Label(top2,text=rezultatFinal3).pack()
+           rezultat_text4 = Label(top2,text=rezultatFinal4).pack()
         
         
-        
-        
+    btn3 = Button(top2,text="Inregistreaza",command=rezultat).pack()
         
       
 
-
-
-
-
-
-btn = Button(body,text="Calculator",command=calculator).pack()
-btn2 = Button(body,text="Test",command=evidenta).pack()
+btn = Button(body,text="Necesar Caloric",command=calculator).pack()
+btn2 = Button(body,text="Calculator",command=evidenta).pack()
 mainloop() #initializare GUI
