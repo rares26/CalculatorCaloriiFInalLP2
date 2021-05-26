@@ -147,12 +147,99 @@ def evidenta():
     mesaj4_text = Label(top2,text = "Valorile nutrititonale sunt:", fg ="blue").pack()
 
 
-    with open("venv/mancare.json","r") as f:
-        temp = json.load(f)
-        for entry in temp:
-            name = entry["name"]
-            print(f"{name}")
-    rezultat_text = Label(top2,text=name,fg="blue").pack()
+    def rezultat():
+        customerData ="""{
+        "ceafa de porc": "20.9 proteine , 5.5 lipide , 0 glucide , 235 calorii",
+        "muschi de porc": "23.9 proteine , 14.3 lipide , 0 glucide , 231 calorii",
+        "sunca afumata": "17.2.9 proteine , 3.2 lipide , 0 glucide , 201 calorii",
+        "mici de porc-vita": "20 proteine , 33 lipide , 0 glucide , 388 calorii",
+        "pulpe de pui dezosate": "29 proteine , 5.2 lipide , 0 glucide , 190 calorii",
+        "snitel de pui": "21.3 proteine , 5.9 lipide , 0 glucide , 198 calorii",
+        "carnati la gratar": "22 proteine , 6.6 lipide , 0 glucide , 235 calorii",
+        "coasta de porc": "32 proteine , 9 lipide , 0 glucide , 243 calorii",
+        "ceafa de miel": "29 proteine , 6.5 lipide , 0 glucide , 190 calorii",
+        "hering": "18 proteine , 10 lipide , 1 glucide , 186 calorii",
+        "pastrav": "18.4 proteine , 12 lipide , 14 glucide , 90 calorii",
+        "somn": "20.9 proteine , 5.5 lipide , 12 glucide , 82 calorii",
+        "cartofi prajiti": "4 proteine , 12 lipide , 12 glucide , 319 calorii",
+        "ceafa de porc": "10 proteine , 12 lipide , 14 glucide , 225 calorii",
+        "cartofi piure": "10 proteine , 21 lipide , 13.2 glucide , 180 calorii",
+        "cartofi nature": "19 proteine ,  18 lipide , 18 glucide , 70 calorii",
+        "legume la gratar": "20 proteine , 12 lipide , 2 glucide , 87 calorii",
+        "ciuperci la gratar": "14proteine , 19 lipide , 12 glucide , 40 calorii",
+        "fasole verde": "24.9 proteine , 21 lipide , 3.2 glucide , 23 calorii",
+        "supa de pui": "15 proteine , 3 lipide , 9 glucide , 123 calorii",
+        "supa de legume": "12 proteine , 5 lipide , 8 glucide , 126 calorii",
+        "ciorba de fasole": "20 proteine , 12 lipide , 6.2 glucide , 90 calorii",
+        "ciorba taraneasca": "12 proteine , 11 lipide , 5.4 glucide , 67 calorii",
+        "ciorba de perisoare": "11 proteine , 12 lipide , 8.3 glucide , 112 calorii",
+        "supa crema de cartofi": "14 proteine , 14 lipide , 4.3 glucide , 101 calorii",
+        "supa crema de legume": "14 proteine , 12.2 lipide , 6.5 glucide , 87 calorii",
+        "baclava": "6.9 proteine , 5.5 lipide , 23 glucide , 234.3 calorii",
+        "ecler": "5.9 proteine , 5.5 lipide , 34 glucide , 322 calorii",
+        "prajitura Kinder": "9.9 proteine , 5.5 lipide , 67 glucide , 412.2 calorii",
+        "savarina": "11.1 proteine , 9.3 lipide , 43 glucide , 213.3 calorii",
+        "tiramisu": "8.7 proteine , 7.6 lipide , 32 glucide , 233.3 calorii",
+        "cheesecake": "5.4 proteine , 12 lipide , 29.8 glucide , 223.2 calorii",
+        "pandispan": "9.6 proteine , 12 lipide , 34 glucide , 235.3 calorii",
+        "cozonac cu cacao si alune": "11.2 proteine , 14.6 lipide , 0 glucide , 192.2 calorii",
+        "banane": "1.3 proteine , 0.3 lipide , 23 glucide , 94 calorii",
+        "caise": "0.9 proteine , 0.4 lipide , 12.2 glucide , 51 calorii",
+        "castane": "0.1 proteine , 0.5 lipide , 21 glucide , 123 calorii",
+        "capsuni": "0.3 proteine , 0.2 lipide , 18.2 glucide , 93 calorii",
+        "cirese": "1.3 proteine , 0.4 lipide , 19.3 glucide , 83 calorii",
+        "mere": "1.2 proteine , 0.5 lipide , 9.3 glucide , 93 calorii",
+        "pepene verde": "0.1 proteine , 0.4 lipide , 0.1 glucide , 23 calorii",
+        "pepene galben": "0.2 proteine , 0.5 lipide , 0.2 glucide , 43 calorii",
+        "pere": "0.3 proteine , 5.5 lipide , 0.4 glucide , 21 calorii",
+        "piersici": "0.3 proteine , 0.2 lipide , 0.2 glucide , 76 calorii",
+        "portocale": "0.4 proteine , 0.2 lipide , 0.2 glucide , 27 calorii",
+        "prune": "0.4 proteine , 0.3 lipide , 0.4 glucide , 54 calorii",
+        "struguri": "0.2 proteine , 0.4 lipide , 0.4 glucide , 102 calorii",
+        "salata de varza": "2 proteine , 0.3 lipide , 1.1 glucide , 31 calorii",
+        "salata de rosii": "2.3 proteine , 0.6 lipide , 11.1 glucide , 35 calorii",
+        "salata de ton": "3 proteine , 1.1 lipide , 12 glucide , 45 calorii",
+        "salata mexicana cu porumb ": "3.2 proteine , 2.2 lipide , 10 glucide , 23 calorii",
+        "shaorma cu de toate": "8.2 proteine , 14.2 lipide , 19.0 glucide , 233 calorii",
+        "kebap cu de toate": "7.5 proteine , 15.5 lipide , 17.2 glucide , 225 calorii",
+        "shaorma la farfurie": "11.2 proteine , 16.5 lipide , 15.4 glucide , 292 calorii",
+        "hamburger": "12.2 proteine , 8.7 lipide , 25.4 glucide , 190 calorii",
+        "cheeseburger": "12.9 proteine , 15.5 lipide , 19.2 glucide , 196 calorii",
+        "hot dog": "3.3 proteine , 14.5 lipide , 14.2 glucide , 154 calorii",
+        "pizza diavola": "9.6 proteine , 5.5 lipide , 15.2 glucide , 202 calorii",
+        "pizza capriciosa": "8.9 proteine , 5.5 lipide , 14.5 glucide , 219 calorii",
+        "pizza quattro stagioni": "9.9 proteine , 12.2 lipide , 31.1 glucide , 192 calorii",
+        "pizza salami": "7.9 proteine , 5.5 lipide , 13.4 glucide , 204 calorii",
+        "piza margherita": "10.3 proteine , 5.5 lipide , 14 glucide , 212 calorii",
+        "apa plata": "0 proteine , 0 lipide , 0 glucide , 0 calorii",
+        "apa minerala": "0 proteine , 0 lipide , 0 glucide , 0 calorii",
+        "cafea": "0 proteine , 0 lipide , 10 glucide , 32.2 calorii",
+        "cafea cu lapte": "0 proteine , 0 lipide , 12 glucide , 43.1 calorii",
+        "cappucino": "0 proteine , 0 lipide , 22 glucide , 89 calorii",
+        "ceai de fructe de padure": "0 proteine , 0 lipide , 1.2 glucide , 2.1 calorii",
+        "ceai nestea": "0 proteine , 0 lipide , 1.2 glucide , 4 calorii",
+        "ceai verde": "0 proteine , 0 lipide , 1.3 glucide , 3 calorii",
+        "ceai negru": "0 proteine , 0 lipide , 0.2 glucide , 2.2 calorii",
+        "cola cola": "0 proteine , 0 lipide , 10.4 glucide , 52 calorii",
+        "fanta": "0 proteine , 0 lipide , 10 glucide , 47 calorii",
+        "sprite": "0 proteine , 0 lipide , 10.2 glucide , 32.9 calorii",
+        "lipton": "0 proteine , 0 lipide , 8.7 glucide , 43.5 calorii",
+        "frutti fresh": "0 proteine , 0 lipide , 9.8 glucide , 32.2 calorii",
+        "smoothie cu capsuni": "0 proteine , 0 lipide , 13 glucide , 90 calorii",
+        "smoothie cu cirese": "0 proteine , 0 lipide , 14 glucide , 92.2 calorii",
+        "smoothie cu ananas si fructul pasiunii": "0 proteine , 0 lipide , 12.2 glucide , 87.7 calorii",
+        "bere": "0 proteine , 0 lipide , 34 glucide , 45 calorii",
+        "vin rosu": "0 proteine , 0 lipide , 20 glucide , 54 calorii",
+        "vin alb": "0 proteine , 0 lipide , 21.1 glucide , 54.2 calorii"
+        }"""
+        
+        
+        
+        
+        
+        
+        
+      
 
 
 
